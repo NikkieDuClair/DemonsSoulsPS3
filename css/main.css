@@ -20,6 +20,6 @@ table th:nth-child(2) {
 
 /* Style for the "On Use" table cells */
 table td:nth-child(2) {
-    text-align: right; /* Adjust this value as needed */
+    width: 50%; /* Adjust this value as needed */
 }
 
