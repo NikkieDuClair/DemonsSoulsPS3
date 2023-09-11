@@ -36,3 +36,10 @@ table.table-striped tr:nth-child(even) {
 table.table-striped tr:nth-child(odd) {
     background-color: #fff; /* White */
 }
+
+/* Limit background colors to content width */
+table.table-striped td,
+table.table-striped th {
+    padding: 8px; /* Adjust the padding as needed */
+    box-sizing: border-box; /* Ensure padding is included within the element's width */
+}
