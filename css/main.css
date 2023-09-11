@@ -13,6 +13,37 @@ th { text-align: left;}
 }
 
 
+/* Style for the "On Use" column headers */
+table th:nth-child(2) {
+    width: 50%; /* Adjust this value as needed */
+}
+
+/* Style for the "On Use" table cells */
+table td:nth-child(2) {
+    width: 50%; /* Adjust this value as needed */
+}
+
+/* Remove borders on table rows */
+table.table-striped tr {
+    border: none;
+}
+
+/* Set alternating background colors for even and odd rows */
+table.table-striped tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray */
+}
+
+table.table-striped tr:nth-child(odd) {
+    background-color: #fff; /* White */
+}
+
+/* Limit background colors to content width */
+table.table-striped td,
+table.table-striped th {
+    padding: 8px; /* Adjust the padding as needed */
+    box-sizing: border-box; /* Ensure padding is included within the element's width */
+}
+
 /* Right-align content in the second column */
 table td:nth-child(2) {
     text-align: right;
