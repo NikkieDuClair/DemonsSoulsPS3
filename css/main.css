@@ -23,3 +23,9 @@ table td:nth-child(2) {
     width: 50%; /* Adjust this value as needed */
 }
 
+/* Adding a black line */
+.hard-line {
+    border: 1px solid black; /* Sets a solid black border */
+    margin-top: 10px; /* Adjusts the space above the line */
+    margin-bottom: 10px; /* Adjusts the space below the line */
+}
